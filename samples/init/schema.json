@@ -1,0 +1,64 @@
+{
+  "tables": [
+    {
+      "name": "orders",
+      "primary_key": [
+        "order_id"
+      ],
+      "columns": [
+        {
+          "name": "order_id",
+          "type": "str"
+        },
+        {
+          "name": "customer_id",
+          "type": "str"
+        },
+        {
+          "name": "region",
+          "type": "str"
+        },
+        {
+          "name": "channel",
+          "type": "str"
+        },
+        {
+          "name": "status",
+          "type": "str"
+        },
+        {
+          "name": "amount",
+          "type": "int"
+        },
+        {
+          "name": "qty",
+          "type": "int"
+        },
+        {
+          "name": "updated_at",
+          "type": "int"
+        }
+      ]
+    },
+    {
+      "name": "customers",
+      "primary_key": [
+        "customer_id"
+      ],
+      "columns": [
+        {
+          "name": "customer_id",
+          "type": "str"
+        },
+        {
+          "name": "tier",
+          "type": "str"
+        },
+        {
+          "name": "city",
+          "type": "str"
+        }
+      ]
+    }
+  ]
+}

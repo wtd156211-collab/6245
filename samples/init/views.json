@@ -1,0 +1,156 @@
+{
+  "views": [
+    {
+      "name": "v_customer_orders",
+      "source": {
+        "table": "orders",
+        "join": null
+      },
+      "filter": [
+        {
+          "column": "orders.status",
+          "op": "in",
+          "value": [
+            "paid",
+            "shipped"
+          ]
+        }
+      ],
+      "group_by": [
+        "orders.customer_id"
+      ],
+      "aggregates": [
+        {
+          "name": "order_count",
+          "func": "count"
+        },
+        {
+          "name": "amount_sum",
+          "func": "sum",
+          "column": "orders.amount"
+        },
+        {
+          "name": "amount_min",
+          "func": "min",
+          "column": "orders.amount"
+        },
+        {
+          "name": "amount_max",
+          "func": "max",
+          "column": "orders.amount"
+        }
+      ]
+    },
+    {
+      "name": "v_region_channel",
+      "source": {
+        "table": "orders",
+        "join": null
+      },
+      "filter": [
+        {
+          "column": "orders.region",
+          "op": "!=",
+          "value": "north"
+        }
+      ],
+      "group_by": [
+        "orders.region",
+        "orders.channel"
+      ],
+      "aggregates": [
+        {
+          "name": "order_count",
+          "func": "count"
+        },
+        {
+          "name": "qty_sum",
+          "func": "sum",
+          "column": "orders.qty"
+        },
+        {
+          "name": "updated_max",
+          "func": "max",
+          "column": "orders.updated_at"
+        }
+      ]
+    },
+    {
+      "name": "v_tier_region",
+      "source": {
+        "table": "orders",
+        "join": {
+          "table": "customers",
+          "on": [
+            "orders.customer_id",
+            "customers.customer_id"
+          ]
+        }
+      },
+      "filter": [
+        {
+          "column": "customers.tier",
+          "op": "!=",
+          "value": "basic"
+        }
+      ],
+      "group_by": [
+        "customers.tier",
+        "orders.region"
+      ],
+      "aggregates": [
+        {
+          "name": "order_count",
+          "func": "count"
+        },
+        {
+          "name": "amount_sum",
+          "func": "sum",
+          "column": "orders.amount"
+        },
+        {
+          "name": "amount_min",
+          "func": "min",
+          "column": "orders.amount"
+        },
+        {
+          "name": "amount_max",
+          "func": "max",
+          "column": "orders.amount"
+        }
+      ]
+    },
+    {
+      "name": "v_status_totals",
+      "source": {
+        "table": "orders",
+        "join": null
+      },
+      "filter": [],
+      "group_by": [
+        "orders.status"
+      ],
+      "aggregates": [
+        {
+          "name": "order_count",
+          "func": "count"
+        },
+        {
+          "name": "amount_sum",
+          "func": "sum",
+          "column": "orders.amount"
+        },
+        {
+          "name": "amount_min",
+          "func": "min",
+          "column": "orders.amount"
+        },
+        {
+          "name": "amount_max",
+          "func": "max",
+          "column": "orders.amount"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2953 @@
+{
+  "step": 3000,
+  "views": [
+    {
+      "view": "v_customer_orders",
+      "rows": [
+        {
+          "key": [
+            "C001"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 247600,
+            "amount_min": 8100,
+            "amount_max": 65100
+          }
+        },
+        {
+          "key": [
+            "C002"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 86100,
+            "amount_min": 5200,
+            "amount_max": 80900
+          }
+        },
+        {
+          "key": [
+            "C003"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 225900,
+            "amount_min": 30100,
+            "amount_max": 85200
+          }
+        },
+        {
+          "key": [
+            "C005"
+          ],
+          "values": {
+            "order_count": 8,
+            "amount_sum": 381600,
+            "amount_min": 1900,
+            "amount_max": 84300
+          }
+        },
+        {
+          "key": [
+            "C006"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 136700,
+            "amount_min": 10200,
+            "amount_max": 81700
+          }
+        },
+        {
+          "key": [
+            "C007"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 5000,
+            "amount_min": 5000,
+            "amount_max": 5000
+          }
+        },
+        {
+          "key": [
+            "C009"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 211600,
+            "amount_min": 11000,
+            "amount_max": 58700
+          }
+        },
+        {
+          "key": [
+            "C011"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 158500,
+            "amount_min": 23600,
+            "amount_max": 82000
+          }
+        },
+        {
+          "key": [
+            "C012"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 236400,
+            "amount_min": 200,
+            "amount_max": 85700
+          }
+        },
+        {
+          "key": [
+            "C013"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 250900,
+            "amount_min": 32400,
+            "amount_max": 81600
+          }
+        },
+        {
+          "key": [
+            "C014"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 130200,
+            "amount_min": 46900,
+            "amount_max": 83300
+          }
+        },
+        {
+          "key": [
+            "C018"
+          ],
+          "values": {
+            "order_count": 7,
+            "amount_sum": 397400,
+            "amount_min": 3600,
+            "amount_max": 91200
+          }
+        },
+        {
+          "key": [
+            "C020"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 21800,
+            "amount_min": 4800,
+            "amount_max": 17000
+          }
+        },
+        {
+          "key": [
+            "C021"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 157100,
+            "amount_min": 73300,
+            "amount_max": 83800
+          }
+        },
+        {
+          "key": [
+            "C023"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 351900,
+            "amount_min": 15400,
+            "amount_max": 93900
+          }
+        },
+        {
+          "key": [
+            "C027"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 188900,
+            "amount_min": 23500,
+            "amount_max": 85200
+          }
+        },
+        {
+          "key": [
+            "C028"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 359900,
+            "amount_min": 37500,
+            "amount_max": 94300
+          }
+        },
+        {
+          "key": [
+            "C029"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 159500,
+            "amount_min": 59600,
+            "amount_max": 99900
+          }
+        },
+        {
+          "key": [
+            "C030"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 166000,
+            "amount_min": 37100,
+            "amount_max": 73600
+          }
+        },
+        {
+          "key": [
+            "C031"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 60700,
+            "amount_min": 600,
+            "amount_max": 60100
+          }
+        },
+        {
+          "key": [
+            "C034"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 101800,
+            "amount_min": 5600,
+            "amount_max": 96200
+          }
+        },
+        {
+          "key": [
+            "C035"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 161400,
+            "amount_min": 33800,
+            "amount_max": 88400
+          }
+        },
+        {
+          "key": [
+            "C036"
+          ],
+          "values": {
+            "order_count": 8,
+            "amount_sum": 456700,
+            "amount_min": 7600,
+            "amount_max": 94100
+          }
+        },
+        {
+          "key": [
+            "C037"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 112300,
+            "amount_min": 54700,
+            "amount_max": 57600
+          }
+        },
+        {
+          "key": [
+            "C038"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 75400,
+            "amount_min": 8800,
+            "amount_max": 44900
+          }
+        },
+        {
+          "key": [
+            "C039"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 224300,
+            "amount_min": 5000,
+            "amount_max": 96200
+          }
+        },
+        {
+          "key": [
+            "C040"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 190500,
+            "amount_min": 45600,
+            "amount_max": 87600
+          }
+        },
+        {
+          "key": [
+            "C041"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 214900,
+            "amount_min": 3100,
+            "amount_max": 87900
+          }
+        },
+        {
+          "key": [
+            "C042"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 109200,
+            "amount_min": 52600,
+            "amount_max": 56600
+          }
+        },
+        {
+          "key": [
+            "C043"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 94900,
+            "amount_min": 26200,
+            "amount_max": 40200
+          }
+        },
+        {
+          "key": [
+            "C044"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 87500,
+            "amount_min": 9000,
+            "amount_max": 62200
+          }
+        },
+        {
+          "key": [
+            "C045"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 213100,
+            "amount_min": 9100,
+            "amount_max": 70200
+          }
+        },
+        {
+          "key": [
+            "C046"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 109500,
+            "amount_min": 700,
+            "amount_max": 41400
+          }
+        },
+        {
+          "key": [
+            "C047"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 94100,
+            "amount_min": 16900,
+            "amount_max": 41900
+          }
+        },
+        {
+          "key": [
+            "C048"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 131600,
+            "amount_min": 8900,
+            "amount_max": 96400
+          }
+        },
+        {
+          "key": [
+            "C049"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 216000,
+            "amount_min": 39200,
+            "amount_max": 84800
+          }
+        },
+        {
+          "key": [
+            "C050"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 152400,
+            "amount_min": 36000,
+            "amount_max": 64500
+          }
+        },
+        {
+          "key": [
+            "C051"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 142700,
+            "amount_min": 67800,
+            "amount_max": 74900
+          }
+        },
+        {
+          "key": [
+            "C053"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 134800,
+            "amount_min": 60900,
+            "amount_max": 73900
+          }
+        },
+        {
+          "key": [
+            "C055"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 173000,
+            "amount_min": 17100,
+            "amount_max": 72600
+          }
+        },
+        {
+          "key": [
+            "C056"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 65800,
+            "amount_min": 6600,
+            "amount_max": 38700
+          }
+        },
+        {
+          "key": [
+            "C057"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 64500,
+            "amount_min": 6800,
+            "amount_max": 41200
+          }
+        },
+        {
+          "key": [
+            "C059"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 136500,
+            "amount_min": 16900,
+            "amount_max": 70100
+          }
+        },
+        {
+          "key": [
+            "C060"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 213800,
+            "amount_min": 2500,
+            "amount_max": 82300
+          }
+        },
+        {
+          "key": [
+            "C061"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 135500,
+            "amount_min": 5400,
+            "amount_max": 67200
+          }
+        },
+        {
+          "key": [
+            "C062"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 229500,
+            "amount_min": 29600,
+            "amount_max": 90400
+          }
+        },
+        {
+          "key": [
+            "C063"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 192500,
+            "amount_min": 22400,
+            "amount_max": 85400
+          }
+        },
+        {
+          "key": [
+            "C065"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 257300,
+            "amount_min": 77300,
+            "amount_max": 90300
+          }
+        },
+        {
+          "key": [
+            "C066"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 149200,
+            "amount_min": 29300,
+            "amount_max": 73700
+          }
+        },
+        {
+          "key": [
+            "C067"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 164700,
+            "amount_min": 25800,
+            "amount_max": 81400
+          }
+        },
+        {
+          "key": [
+            "C068"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 258600,
+            "amount_min": 81200,
+            "amount_max": 90600
+          }
+        },
+        {
+          "key": [
+            "C069"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 206600,
+            "amount_min": 19600,
+            "amount_max": 68500
+          }
+        },
+        {
+          "key": [
+            "C071"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 123400,
+            "amount_min": 44600,
+            "amount_max": 78800
+          }
+        },
+        {
+          "key": [
+            "C072"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 600,
+            "amount_min": 600,
+            "amount_max": 600
+          }
+        },
+        {
+          "key": [
+            "C073"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 134800,
+            "amount_min": 36400,
+            "amount_max": 55300
+          }
+        },
+        {
+          "key": [
+            "C074"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 93200,
+            "amount_min": 40600,
+            "amount_max": 52600
+          }
+        },
+        {
+          "key": [
+            "C075"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 84700,
+            "amount_min": 84700,
+            "amount_max": 84700
+          }
+        },
+        {
+          "key": [
+            "C076"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 153300,
+            "amount_min": 24100,
+            "amount_max": 58300
+          }
+        },
+        {
+          "key": [
+            "C077"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 77600,
+            "amount_min": 77600,
+            "amount_max": 77600
+          }
+        },
+        {
+          "key": [
+            "C078"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 214600,
+            "amount_min": 32400,
+            "amount_max": 84800
+          }
+        },
+        {
+          "key": [
+            "C079"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 130700,
+            "amount_min": 10400,
+            "amount_max": 67700
+          }
+        },
+        {
+          "key": [
+            "C080"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 170900,
+            "amount_min": 15800,
+            "amount_max": 96700
+          }
+        },
+        {
+          "key": [
+            "C081"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 210700,
+            "amount_min": 14800,
+            "amount_max": 92800
+          }
+        },
+        {
+          "key": [
+            "C082"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 66800,
+            "amount_min": 21300,
+            "amount_max": 45500
+          }
+        },
+        {
+          "key": [
+            "C083"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 184600,
+            "amount_min": 26700,
+            "amount_max": 86900
+          }
+        },
+        {
+          "key": [
+            "C084"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 68500,
+            "amount_min": 68500,
+            "amount_max": 68500
+          }
+        },
+        {
+          "key": [
+            "C085"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 411100,
+            "amount_min": 68200,
+            "amount_max": 97400
+          }
+        },
+        {
+          "key": [
+            "C086"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 199000,
+            "amount_min": 51300,
+            "amount_max": 95600
+          }
+        },
+        {
+          "key": [
+            "C087"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 141300,
+            "amount_min": 62900,
+            "amount_max": 78400
+          }
+        },
+        {
+          "key": [
+            "C088"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 264900,
+            "amount_min": 2400,
+            "amount_max": 85200
+          }
+        },
+        {
+          "key": [
+            "C089"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 161200,
+            "amount_min": 34100,
+            "amount_max": 84300
+          }
+        },
+        {
+          "key": [
+            "C090"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 92600,
+            "amount_min": 92600,
+            "amount_max": 92600
+          }
+        },
+        {
+          "key": [
+            "C091"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 74500,
+            "amount_min": 74500,
+            "amount_max": 74500
+          }
+        },
+        {
+          "key": [
+            "C092"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 105100,
+            "amount_min": 12600,
+            "amount_max": 92500
+          }
+        },
+        {
+          "key": [
+            "C093"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 94300,
+            "amount_min": 94300,
+            "amount_max": 94300
+          }
+        },
+        {
+          "key": [
+            "C094"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 150500,
+            "amount_min": 28600,
+            "amount_max": 70200
+          }
+        },
+        {
+          "key": [
+            "C095"
+          ],
+          "values": {
+            "order_count": 7,
+            "amount_sum": 195700,
+            "amount_min": 2200,
+            "amount_max": 64900
+          }
+        },
+        {
+          "key": [
+            "C096"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 271200,
+            "amount_min": 5700,
+            "amount_max": 88200
+          }
+        },
+        {
+          "key": [
+            "C097"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 157000,
+            "amount_min": 5500,
+            "amount_max": 73400
+          }
+        },
+        {
+          "key": [
+            "C098"
+          ],
+          "values": {
+            "order_count": 10,
+            "amount_sum": 590700,
+            "amount_min": 4800,
+            "amount_max": 96600
+          }
+        },
+        {
+          "key": [
+            "C099"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 76000,
+            "amount_min": 5300,
+            "amount_max": 26500
+          }
+        },
+        {
+          "key": [
+            "C100"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 131400,
+            "amount_min": 14400,
+            "amount_max": 84600
+          }
+        },
+        {
+          "key": [
+            "C101"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 237200,
+            "amount_min": 24200,
+            "amount_max": 94800
+          }
+        },
+        {
+          "key": [
+            "C102"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 91900,
+            "amount_min": 44800,
+            "amount_max": 47100
+          }
+        },
+        {
+          "key": [
+            "C103"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 162100,
+            "amount_min": 5400,
+            "amount_max": 96800
+          }
+        },
+        {
+          "key": [
+            "C104"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 162200,
+            "amount_min": 79700,
+            "amount_max": 82500
+          }
+        },
+        {
+          "key": [
+            "C105"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 61100,
+            "amount_min": 9100,
+            "amount_max": 52000
+          }
+        },
+        {
+          "key": [
+            "C106"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 97900,
+            "amount_min": 42000,
+            "amount_max": 55900
+          }
+        },
+        {
+          "key": [
+            "C107"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 50400,
+            "amount_min": 50400,
+            "amount_max": 50400
+          }
+        },
+        {
+          "key": [
+            "C108"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 260700,
+            "amount_min": 4800,
+            "amount_max": 74100
+          }
+        },
+        {
+          "key": [
+            "C109"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 292400,
+            "amount_min": 6700,
+            "amount_max": 83300
+          }
+        },
+        {
+          "key": [
+            "C110"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 53700,
+            "amount_min": 53700,
+            "amount_max": 53700
+          }
+        },
+        {
+          "key": [
+            "C111"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 235600,
+            "amount_min": 40000,
+            "amount_max": 98200
+          }
+        },
+        {
+          "key": [
+            "C112"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 318700,
+            "amount_min": 1500,
+            "amount_max": 96800
+          }
+        },
+        {
+          "key": [
+            "C113"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 269900,
+            "amount_min": 100,
+            "amount_max": 83700
+          }
+        },
+        {
+          "key": [
+            "C114"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 83600,
+            "amount_min": 83600,
+            "amount_max": 83600
+          }
+        },
+        {
+          "key": [
+            "C115"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 118400,
+            "amount_min": 14100,
+            "amount_max": 55800
+          }
+        },
+        {
+          "key": [
+            "C116"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 123300,
+            "amount_min": 9500,
+            "amount_max": 62600
+          }
+        },
+        {
+          "key": [
+            "C117"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 255300,
+            "amount_min": 29200,
+            "amount_max": 96800
+          }
+        },
+        {
+          "key": [
+            "C118"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 256300,
+            "amount_min": 40900,
+            "amount_max": 83200
+          }
+        },
+        {
+          "key": [
+            "C119"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 183100,
+            "amount_min": 28200,
+            "amount_max": 90800
+          }
+        },
+        {
+          "key": [
+            "C120"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 189200,
+            "amount_min": 41800,
+            "amount_max": 85200
+          }
+        },
+        {
+          "key": [
+            "C121"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 199200,
+            "amount_min": 29000,
+            "amount_max": 66600
+          }
+        },
+        {
+          "key": [
+            "C122"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 31600,
+            "amount_min": 31600,
+            "amount_max": 31600
+          }
+        },
+        {
+          "key": [
+            "C123"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 383300,
+            "amount_min": 27900,
+            "amount_max": 96800
+          }
+        },
+        {
+          "key": [
+            "C124"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 215300,
+            "amount_min": 67200,
+            "amount_max": 78200
+          }
+        },
+        {
+          "key": [
+            "C125"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 34200,
+            "amount_min": 34200,
+            "amount_max": 34200
+          }
+        },
+        {
+          "key": [
+            "C126"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 54800,
+            "amount_min": 54800,
+            "amount_max": 54800
+          }
+        },
+        {
+          "key": [
+            "C127"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 184600,
+            "amount_min": 14000,
+            "amount_max": 93600
+          }
+        },
+        {
+          "key": [
+            "C128"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 218100,
+            "amount_min": 16700,
+            "amount_max": 88700
+          }
+        },
+        {
+          "key": [
+            "C129"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 415300,
+            "amount_min": 22400,
+            "amount_max": 96000
+          }
+        },
+        {
+          "key": [
+            "C130"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 133000,
+            "amount_min": 13700,
+            "amount_max": 75700
+          }
+        },
+        {
+          "key": [
+            "C131"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 92300,
+            "amount_min": 7800,
+            "amount_max": 84500
+          }
+        },
+        {
+          "key": [
+            "C132"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 20600,
+            "amount_min": 20600,
+            "amount_max": 20600
+          }
+        },
+        {
+          "key": [
+            "C133"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 351800,
+            "amount_min": 11500,
+            "amount_max": 98800
+          }
+        },
+        {
+          "key": [
+            "C134"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 181900,
+            "amount_min": 26600,
+            "amount_max": 88400
+          }
+        },
+        {
+          "key": [
+            "C135"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 319500,
+            "amount_min": 32300,
+            "amount_max": 92900
+          }
+        },
+        {
+          "key": [
+            "C136"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 85800,
+            "amount_min": 85800,
+            "amount_max": 85800
+          }
+        },
+        {
+          "key": [
+            "C137"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 83900,
+            "amount_min": 28600,
+            "amount_max": 55300
+          }
+        },
+        {
+          "key": [
+            "C138"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 239000,
+            "amount_min": 2600,
+            "amount_max": 75400
+          }
+        },
+        {
+          "key": [
+            "C139"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 229800,
+            "amount_min": 29500,
+            "amount_max": 96400
+          }
+        },
+        {
+          "key": [
+            "C140"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 223200,
+            "amount_min": 23400,
+            "amount_max": 75300
+          }
+        },
+        {
+          "key": [
+            "C141"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 106800,
+            "amount_min": 39700,
+            "amount_max": 67100
+          }
+        },
+        {
+          "key": [
+            "C142"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 120700,
+            "amount_min": 56500,
+            "amount_max": 64200
+          }
+        },
+        {
+          "key": [
+            "C143"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 121800,
+            "amount_min": 25300,
+            "amount_max": 55100
+          }
+        },
+        {
+          "key": [
+            "C144"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 151700,
+            "amount_min": 69400,
+            "amount_max": 82300
+          }
+        },
+        {
+          "key": [
+            "C145"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 97500,
+            "amount_min": 5200,
+            "amount_max": 57300
+          }
+        },
+        {
+          "key": [
+            "C146"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 67100,
+            "amount_min": 1600,
+            "amount_max": 58600
+          }
+        },
+        {
+          "key": [
+            "C147"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 121200,
+            "amount_min": 33000,
+            "amount_max": 88200
+          }
+        },
+        {
+          "key": [
+            "C148"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 160100,
+            "amount_min": 6000,
+            "amount_max": 64900
+          }
+        },
+        {
+          "key": [
+            "C149"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 193500,
+            "amount_min": 31300,
+            "amount_max": 68800
+          }
+        },
+        {
+          "key": [
+            "C150"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 371700,
+            "amount_min": 50400,
+            "amount_max": 93900
+          }
+        },
+        {
+          "key": [
+            "C151"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 145400,
+            "amount_min": 68200,
+            "amount_max": 77200
+          }
+        },
+        {
+          "key": [
+            "C152"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 249200,
+            "amount_min": 53900,
+            "amount_max": 97700
+          }
+        },
+        {
+          "key": [
+            "C153"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 127800,
+            "amount_min": 1000,
+            "amount_max": 93100
+          }
+        },
+        {
+          "key": [
+            "C154"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 230600,
+            "amount_min": 28400,
+            "amount_max": 65700
+          }
+        },
+        {
+          "key": [
+            "C155"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 176600,
+            "amount_min": 2000,
+            "amount_max": 99600
+          }
+        },
+        {
+          "key": [
+            "C156"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 85700,
+            "amount_min": 1500,
+            "amount_max": 84200
+          }
+        },
+        {
+          "key": [
+            "C157"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 336000,
+            "amount_min": 5000,
+            "amount_max": 74000
+          }
+        },
+        {
+          "key": [
+            "C158"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 79800,
+            "amount_min": 79800,
+            "amount_max": 79800
+          }
+        },
+        {
+          "key": [
+            "C159"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 109700,
+            "amount_min": 52700,
+            "amount_max": 57000
+          }
+        },
+        {
+          "key": [
+            "C160"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 425700,
+            "amount_min": 48500,
+            "amount_max": 90100
+          }
+        },
+        {
+          "key": [
+            "C161"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 200000,
+            "amount_min": 49300,
+            "amount_max": 84200
+          }
+        },
+        {
+          "key": [
+            "C162"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 260400,
+            "amount_min": 7600,
+            "amount_max": 97900
+          }
+        },
+        {
+          "key": [
+            "C163"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 108600,
+            "amount_min": 30800,
+            "amount_max": 77800
+          }
+        },
+        {
+          "key": [
+            "C165"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 187500,
+            "amount_min": 19200,
+            "amount_max": 85200
+          }
+        },
+        {
+          "key": [
+            "C166"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 59900,
+            "amount_min": 11200,
+            "amount_max": 48700
+          }
+        },
+        {
+          "key": [
+            "C167"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 68300,
+            "amount_min": 68300,
+            "amount_max": 68300
+          }
+        },
+        {
+          "key": [
+            "C168"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 85900,
+            "amount_min": 28100,
+            "amount_max": 57800
+          }
+        },
+        {
+          "key": [
+            "C169"
+          ],
+          "values": {
+            "order_count": 8,
+            "amount_sum": 451000,
+            "amount_min": 6100,
+            "amount_max": 93000
+          }
+        },
+        {
+          "key": [
+            "C170"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 70000,
+            "amount_min": 25200,
+            "amount_max": 44800
+          }
+        },
+        {
+          "key": [
+            "C171"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 40000,
+            "amount_min": 40000,
+            "amount_max": 40000
+          }
+        },
+        {
+          "key": [
+            "C172"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 183400,
+            "amount_min": 3000,
+            "amount_max": 66400
+          }
+        },
+        {
+          "key": [
+            "C173"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 118100,
+            "amount_min": 17700,
+            "amount_max": 75500
+          }
+        },
+        {
+          "key": [
+            "C174"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 28700,
+            "amount_min": 28700,
+            "amount_max": 28700
+          }
+        },
+        {
+          "key": [
+            "C175"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 99300,
+            "amount_min": 5900,
+            "amount_max": 84800
+          }
+        },
+        {
+          "key": [
+            "C176"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 211100,
+            "amount_min": 400,
+            "amount_max": 73800
+          }
+        },
+        {
+          "key": [
+            "C177"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 322000,
+            "amount_min": 9200,
+            "amount_max": 87000
+          }
+        },
+        {
+          "key": [
+            "C178"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 144400,
+            "amount_min": 15800,
+            "amount_max": 52300
+          }
+        },
+        {
+          "key": [
+            "C179"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 121700,
+            "amount_min": 14400,
+            "amount_max": 46600
+          }
+        },
+        {
+          "key": [
+            "C180"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 83400,
+            "amount_min": 26500,
+            "amount_max": 56900
+          }
+        },
+        {
+          "key": [
+            "C181"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 272600,
+            "amount_min": 10800,
+            "amount_max": 98700
+          }
+        },
+        {
+          "key": [
+            "C182"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 33200,
+            "amount_min": 33200,
+            "amount_max": 33200
+          }
+        },
+        {
+          "key": [
+            "C183"
+          ],
+          "values": {
+            "order_count": 8,
+            "amount_sum": 376100,
+            "amount_min": 17400,
+            "amount_max": 92300
+          }
+        },
+        {
+          "key": [
+            "C184"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 243300,
+            "amount_min": 14300,
+            "amount_max": 74600
+          }
+        },
+        {
+          "key": [
+            "C185"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 157800,
+            "amount_min": 19300,
+            "amount_max": 80500
+          }
+        },
+        {
+          "key": [
+            "C186"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 167200,
+            "amount_min": 5000,
+            "amount_max": 78200
+          }
+        },
+        {
+          "key": [
+            "C187"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 38900,
+            "amount_min": 38900,
+            "amount_max": 38900
+          }
+        },
+        {
+          "key": [
+            "C189"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 114800,
+            "amount_min": 45600,
+            "amount_max": 69200
+          }
+        },
+        {
+          "key": [
+            "C190"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 160600,
+            "amount_min": 73400,
+            "amount_max": 87200
+          }
+        },
+        {
+          "key": [
+            "C191"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 359800,
+            "amount_min": 48100,
+            "amount_max": 84400
+          }
+        },
+        {
+          "key": [
+            "C192"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 73900,
+            "amount_min": 9900,
+            "amount_max": 45800
+          }
+        },
+        {
+          "key": [
+            "C193"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 226200,
+            "amount_min": 22900,
+            "amount_max": 83200
+          }
+        },
+        {
+          "key": [
+            "C195"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 148900,
+            "amount_min": 3700,
+            "amount_max": 79100
+          }
+        },
+        {
+          "key": [
+            "C196"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 61400,
+            "amount_min": 61400,
+            "amount_max": 61400
+          }
+        },
+        {
+          "key": [
+            "C197"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 325400,
+            "amount_min": 8400,
+            "amount_max": 88900
+          }
+        },
+        {
+          "key": [
+            "C198"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 55000,
+            "amount_min": 22300,
+            "amount_max": 32700
+          }
+        },
+        {
+          "key": [
+            "C199"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 79700,
+            "amount_min": 38300,
+            "amount_max": 41400
+          }
+        },
+        {
+          "key": [
+            "C200"
+          ],
+          "values": {
+            "order_count": 7,
+            "amount_sum": 269400,
+            "amount_min": 8000,
+            "amount_max": 99900
+          }
+        },
+        {
+          "key": [
+            "C201"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 315500,
+            "amount_min": 1300,
+            "amount_max": 83900
+          }
+        },
+        {
+          "key": [
+            "C202"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 74500,
+            "amount_min": 9000,
+            "amount_max": 65500
+          }
+        },
+        {
+          "key": [
+            "C203"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 247200,
+            "amount_min": 29500,
+            "amount_max": 95300
+          }
+        },
+        {
+          "key": [
+            "C205"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 36300,
+            "amount_min": 36300,
+            "amount_max": 36300
+          }
+        },
+        {
+          "key": [
+            "C206"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 139500,
+            "amount_min": 19600,
+            "amount_max": 62200
+          }
+        },
+        {
+          "key": [
+            "C207"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 206400,
+            "amount_min": 39500,
+            "amount_max": 66500
+          }
+        },
+        {
+          "key": [
+            "C208"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 236100,
+            "amount_min": 5800,
+            "amount_max": 88100
+          }
+        },
+        {
+          "key": [
+            "C209"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 133600,
+            "amount_min": 54100,
+            "amount_max": 79500
+          }
+        },
+        {
+          "key": [
+            "C210"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 200100,
+            "amount_min": 40600,
+            "amount_max": 81500
+          }
+        },
+        {
+          "key": [
+            "C211"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 300300,
+            "amount_min": 15300,
+            "amount_max": 95400
+          }
+        },
+        {
+          "key": [
+            "C212"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 223100,
+            "amount_min": 27800,
+            "amount_max": 97800
+          }
+        },
+        {
+          "key": [
+            "C213"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 105200,
+            "amount_min": 8900,
+            "amount_max": 71900
+          }
+        },
+        {
+          "key": [
+            "C214"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 219400,
+            "amount_min": 13600,
+            "amount_max": 88900
+          }
+        },
+        {
+          "key": [
+            "C215"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 181400,
+            "amount_min": 2400,
+            "amount_max": 93600
+          }
+        },
+        {
+          "key": [
+            "C216"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 165700,
+            "amount_min": 46600,
+            "amount_max": 61900
+          }
+        },
+        {
+          "key": [
+            "C217"
+          ],
+          "values": {
+            "order_count": 6,
+            "amount_sum": 404400,
+            "amount_min": 25100,
+            "amount_max": 93400
+          }
+        },
+        {
+          "key": [
+            "C218"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 234600,
+            "amount_min": 34200,
+            "amount_max": 84400
+          }
+        },
+        {
+          "key": [
+            "C219"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 183400,
+            "amount_min": 3900,
+            "amount_max": 94000
+          }
+        },
+        {
+          "key": [
+            "C220"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 26900,
+            "amount_min": 10500,
+            "amount_max": 16400
+          }
+        },
+        {
+          "key": [
+            "C222"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 104200,
+            "amount_min": 8600,
+            "amount_max": 95600
+          }
+        },
+        {
+          "key": [
+            "C223"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 57200,
+            "amount_min": 22400,
+            "amount_max": 34800
+          }
+        },
+        {
+          "key": [
+            "C224"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 134700,
+            "amount_min": 5000,
+            "amount_max": 64600
+          }
+        },
+        {
+          "key": [
+            "C225"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 19600,
+            "amount_min": 3900,
+            "amount_max": 15700
+          }
+        },
+        {
+          "key": [
+            "C226"
+          ],
+          "values": {
+            "order_count": 10,
+            "amount_sum": 633000,
+            "amount_min": 8600,
+            "amount_max": 97000
+          }
+        },
+        {
+          "key": [
+            "C227"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 186300,
+            "amount_min": 18700,
+            "amount_max": 83800
+          }
+        },
+        {
+          "key": [
+            "C228"
+          ],
+          "values": {
+            "order_count": 5,
+            "amount_sum": 234000,
+            "amount_min": 800,
+            "amount_max": 73800
+          }
+        },
+        {
+          "key": [
+            "C229"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 68900,
+            "amount_min": 4400,
+            "amount_max": 64500
+          }
+        },
+        {
+          "key": [
+            "C230"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 164400,
+            "amount_min": 14000,
+            "amount_max": 89600
+          }
+        },
+        {
+          "key": [
+            "C231"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 39300,
+            "amount_min": 39300,
+            "amount_max": 39300
+          }
+        },
+        {
+          "key": [
+            "C232"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 226600,
+            "amount_min": 63700,
+            "amount_max": 86900
+          }
+        },
+        {
+          "key": [
+            "C233"
+          ],
+          "values": {
+            "order_count": 1,
+            "amount_sum": 12300,
+            "amount_min": 12300,
+            "amount_max": 12300
+          }
+        },
+        {
+          "key": [
+            "C234"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 150400,
+            "amount_min": 20300,
+            "amount_max": 69900
+          }
+        },
+        {
+          "key": [
+            "C235"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 100300,
+            "amount_min": 45500,
+            "amount_max": 54800
+          }
+        },
+        {
+          "key": [
+            "C236"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 159800,
+            "amount_min": 8300,
+            "amount_max": 55200
+          }
+        },
+        {
+          "key": [
+            "C237"
+          ],
+          "values": {
+            "order_count": 2,
+            "amount_sum": 67800,
+            "amount_min": 27800,
+            "amount_max": 40000
+          }
+        },
+        {
+          "key": [
+            "C238"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 240900,
+            "amount_min": 12900,
+            "amount_max": 95900
+          }
+        },
+        {
+          "key": [
+            "C239"
+          ],
+          "values": {
+            "order_count": 3,
+            "amount_sum": 176200,
+            "amount_min": 46000,
+            "amount_max": 69600
+          }
+        },
+        {
+          "key": [
+            "C240"
+          ],
+          "values": {
+            "order_count": 4,
+            "amount_sum": 145300,
+            "amount_min": 10800,
+            "amount_max": 46300
+          }
+        }
+      ],
+      "vanished": [
+        {
+          "key": [
+            "C004"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 2750,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 37200,
+            "amount_min": 37200,
+            "amount_max": 37200
+          }
+        },
+        {
+          "key": [
+            "C010"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 2750,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 10100,
+            "amount_min": 10100,
+            "amount_max": 10100
+          }
+        },
+        {
+          "key": [
+            "C015"
+          ],
+          "appeared_step": 429,
+          "vanished_step": 1725,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 17400,
+            "amount_min": 17400,
+            "amount_max": 17400
+          }
+        },
+        {
+          "key": [
+            "C016"
+          ],
+          "appeared_step": 2135,
+          "vanished_step": 2750,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 57900,
+            "amount_min": 57900,
+            "amount_max": 57900
+          }
+        },
+        {
+          "key": [
+            "C017"
+          ],
+          "appeared_step": 1210,
+          "vanished_step": 2750,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 19800,
+            "amount_min": 19800,
+            "amount_max": 19800
+          }
+        },
+        {
+          "key": [
+            "C019"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 2750,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 57700,
+            "amount_min": 57700,
+            "amount_max": 57700
+          }
+        },
+        {
+          "key": [
+            "C022"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 2468,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 80100,
+            "amount_min": 80100,
+            "amount_max": 80100
+          }
+        },
+        {
+          "key": [
+            "C024"
+          ],
+          "appeared_step": 2238,
+          "vanished_step": 2750,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 16800,
+            "amount_min": 16800,
+            "amount_max": 16800
+          }
+        },
+        {
+          "key": [
+            "C025"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 2750,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 65300,
+            "amount_min": 65300,
+            "amount_max": 65300
+          }
+        },
+        {
+          "key": [
+            "C026"
+          ],
+          "appeared_step": 2638,
+          "vanished_step": 2750,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 72100,
+            "amount_min": 72100,
+            "amount_max": 72100
+          }
+        },
+        {
+          "key": [
+            "C032"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 820,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 87700,
+            "amount_min": 87700,
+            "amount_max": 87700
+          }
+        },
+        {
+          "key": [
+            "C033"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 2900,
+          "last_values": {
+            "order_count": 8,
+            "amount_sum": 365800,
+            "amount_min": 1900,
+            "amount_max": 84300
+          }
+        },
+        {
+          "key": [
+            "C052"
+          ],
+          "appeared_step": 1794,
+          "vanished_step": 2750,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 74800,
+            "amount_min": 74800,
+            "amount_max": 74800
+          }
+        },
+        {
+          "key": [
+            "C054"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 2488,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 96300,
+            "amount_min": 96300,
+            "amount_max": 96300
+          }
+        },
+        {
+          "key": [
+            "C058"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 2750,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 69700,
+            "amount_min": 69700,
+            "amount_max": 69700
+          }
+        },
+        {
+          "key": [
+            "C064"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 2750,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 42700,
+            "amount_min": 42700,
+            "amount_max": 42700
+          }
+        },
+        {
+          "key": [
+            "C070"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 2750,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 30100,
+            "amount_min": 30100,
+            "amount_max": 30100
+          }
+        },
+        {
+          "key": [
+            "C164"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 1116,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 43000,
+            "amount_min": 43000,
+            "amount_max": 43000
+          }
+        },
+        {
+          "key": [
+            "C188"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 683,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 7400,
+            "amount_min": 7400,
+            "amount_max": 7400
+          }
+        },
+        {
+          "key": [
+            "C194"
+          ],
+          "appeared_step": 154,
+          "vanished_step": 1852,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 20900,
+            "amount_min": 20900,
+            "amount_max": 20900
+          }
+        },
+        {
+          "key": [
+            "C221"
+          ],
+          "appeared_step": 0,
+          "vanished_step": 1495,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 13300,
+            "amount_min": 13300,
+            "amount_max": 13300
+          }
+        },
+        {
+          "key": [
+            "N90"
+          ],
+          "appeared_step": 2400,
+          "vanished_step": 2705,
+          "last_values": {
+            "order_count": 1,
+            "amount_sum": 800,
+            "amount_min": 800,
+            "amount_max": 800
+          }
+        }
+      ]
+    },
+    {
+      "view": "v_region_channel",
+      "rows": [
+        {
+          "key": [
+            "east",
+            "app"
+          ],
+          "values": {
+            "order_count": 151,
+            "qty_sum": 788,
+            "updated_max": 144808
+          }
+        },
+        {
+          "key": [
+            "east",
+            "store"
+          ],
+          "values": {
+            "order_count": 39,
+            "qty_sum": 193,
+            "updated_max": 145447
+          }
+        },
+        {
+          "key": [
+            "east",
+            "web"
+          ],
+          "values": {
+            "order_count": 161,
+            "qty_sum": 777,
+            "updated_max": 144725
+          }
+        },
+        {
+          "key": [
+            "south",
+            "app"
+          ],
+          "values": {
+            "order_count": 133,
+            "qty_sum": 719,
+            "updated_max": 145327
+          }
+        },
+        {
+          "key": [
+            "south",
+            "store"
+          ],
+          "values": {
+            "order_count": 132,
+            "qty_sum": 608,
+            "updated_max": 145221
+          }
+        },
+        {
+          "key": [
+            "south",
+            "web"
+          ],
+          "values": {
+            "order_count": 116,
+            "qty_sum": 571,
+            "updated_max": 145028
+          }
+        },
+        {
+          "key": [
+            "west",
+            "app"
+          ],
+          "values": {
+            "order_count": 138,
+            "qty_sum": 673,
+            "updated_max": 145465
+          }
+        },
+        {
+          "key": [
+            "west",
+            "store"
+          ],
+          "values": {
+            "order_count": 143,
+            "qty_sum": 680,
+            "updated_max": 145441
+          }
+        },
+        {
+          "key": [
+            "west",
+            "web"
+          ],
+          "values": {
+            "order_count": 124,
+            "qty_sum": 546,
+            "updated_max": 145298
+          }
+        }
+      ],
+      "vanished": []
+    },
+    {
+      "view": "v_status_totals",
+      "rows": [
+        {
+          "key": [
+            "cancelled"
+          ],
+          "values": {
+            "order_count": 428,
+            "amount_sum": 22294700,
+            "amount_min": 100,
+            "amount_max": 99900
+          }
+        },
+        {
+          "key": [
+            "created"
+          ],
+          "values": {
+            "order_count": 316,
+            "amount_sum": 15148100,
+            "amount_min": 100,
+            "amount_max": 99600
+          }
+        },
+        {
+          "key": [
+            "paid"
+          ],
+          "values": {
+            "order_count": 427,
+            "amount_sum": 21264000,
+            "amount_min": 100,
+            "amount_max": 99900
+          }
+        },
+        {
+          "key": [
+            "refunded"
+          ],
+          "values": {
+            "order_count": 41,
+            "amount_sum": 2018900,
+            "amount_min": 800,
+            "amount_max": 99200
+          }
+        },
+        {
+          "key": [
+            "shipped"
+          ],
+          "values": {
+            "order_count": 311,
+            "amount_sum": 16012700,
+            "amount_min": 400,
+            "amount_max": 99900
+          }
+        }
+      ],
+      "vanished": []
+    },
+    {
+      "view": "v_tier_region",
+      "rows": [
+        {
+          "key": [
+            "plus",
+            "east"
+          ],
+          "values": {
+            "order_count": 112,
+            "amount_sum": 4902400,
+            "amount_min": 100,
+            "amount_max": 99900
+          }
+        },
+        {
+          "key": [
+            "plus",
+            "north"
+          ],
+          "values": {
+            "order_count": 123,
+            "amount_sum": 6544300,
+            "amount_min": 400,
+            "amount_max": 99000
+          }
+        },
+        {
+          "key": [
+            "plus",
+            "south"
+          ],
+          "values": {
+            "order_count": 125,
+            "amount_sum": 5823600,
+            "amount_min": 1600,
+            "amount_max": 98800
+          }
+        },
+        {
+          "key": [
+            "plus",
+            "west"
+          ],
+          "values": {
+            "order_count": 123,
+            "amount_sum": 6218400,
+            "amount_min": 1300,
+            "amount_max": 99900
+          }
+        },
+        {
+          "key": [
+            "pro",
+            "east"
+          ],
+          "values": {
+            "order_count": 110,
+            "amount_sum": 6169500,
+            "amount_min": 800,
+            "amount_max": 98800
+          }
+        },
+        {
+          "key": [
+            "pro",
+            "north"
+          ],
+          "values": {
+            "order_count": 104,
+            "amount_sum": 5455200,
+            "amount_min": 400,
+            "amount_max": 99900
+          }
+        },
+        {
+          "key": [
+            "pro",
+            "south"
+          ],
+          "values": {
+            "order_count": 114,
+            "amount_sum": 5714600,
+            "amount_min": 100,
+            "amount_max": 99600
+          }
+        },
+        {
+          "key": [
+            "pro",
+            "west"
+          ],
+          "values": {
+            "order_count": 108,
+            "amount_sum": 5606300,
+            "amount_min": 600,
+            "amount_max": 97800
+          }
+        }
+      ],
+      "vanished": []
+    }
+  ]
+}
