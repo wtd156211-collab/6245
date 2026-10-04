@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>viewkeep 看板</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>viewkeep 物化视图看板</h1>
+    <div class="status">
+      <span>当前步号 <strong id="current-step">–</strong></span>
+      <span>水位 <strong id="watermark">–</strong></span>
+      <span id="wall-source"></span>
+    </div>
+  </header>
+
+  <section class="controls">
+    <label for="step-input">步号</label>
+    <input type="range" id="step-slider" min="0" value="0">
+    <input type="number" id="step-input" min="0" value="0">
+    <nav id="view-tabs"></nav>
+  </section>
+
+  <main>
+    <section id="step-detail" class="panel">
+      <h2>本步变化</h2>
+      <div id="step-detail-body"></div>
+    </section>
+    <section id="card-wall" class="panel">
+      <h2 id="wall-title">分组</h2>
+      <div id="cards"></div>
+    </section>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
