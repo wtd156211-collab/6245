@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>viewkeep 物化视图看板</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="title">
+    <h1>viewkeep 看板</h1>
+    <p class="sub">卡片数字全部来自引擎导出的 <code>data.json</code>,页面不做二次聚合</p>
+  </div>
+  <div class="status">
+    <span class="pill">watermark <b id="watermark">…</b></span>
+    <span class="pill">当前步号 <b id="cur-step">…</b></span>
+  </div>
+  <div class="controls">
+    <label for="step-range">查看步号</label>
+    <input type="range" id="step-range" min="0" step="1" value="0">
+    <input type="number" id="step-input" min="0" step="1" value="0">
+    <span id="step-hint"></span>
+  </div>
+</header>
+
+<section id="step-detail" class="step-detail"></section>
+<main id="views"></main>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>

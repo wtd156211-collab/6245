@@ -98,3 +98,20 @@ python app.py serve [--port 8000]
 
 视图语法的报错码与文案、`var/state.json` 的字段设计、日志窗口取 200 的依据、页面配色与分页、多进程约定、放大数据怎么生成，
 都还没定。
+
+## 8. 实现说明(补第 7 节空缺)
+
+- 报错码:操作校验失败(主键冲突/不存在、`set` 含主键、未知表或操作)与水
+  位跳号(`step > watermark+1`)整步回滚后退出码 1,stderr 带原因;`dump`/`query`
+  遇到未知视图、键长与分组列数不符、键类型无法解析时退出码 2。
+- `var/state.json`:`{"watermark","tables","views"}`;`views` 每个视图存
+  `appeared`(现存分组键 → 出现步号)与 `vanished`(消失分组快照)。分组聚合状态
+  不落盘,重启时按 `tables` 全量重建一次(只在加载时做,不在每步做)。逐步明细在
+  `var/deltas.jsonl`,检查点在 `var/checkpoints.json`,日志在 `var/log/applied.jsonl`。
+- 日志窗口取 200:分析师对数只看最近一批变更,200 步约覆盖一次连跑的量级,
+  内存与文件都恒定;`watermark>200` 时首行即 `watermark-199`。
+- 页面:卡片墙用 CSS grid 自适应,无需分页(分组数 ≤ 几百);现存卡片白底蓝边,
+  消失卡片灰底灰字并标注出现/消失步与最后值;步号用滑块+数字框双输入。
+- 多进程约定:不保证。`var/` 与 `web/data.json` 由单进程顺序写,`serve` 只读。
+- 放大数据:`samples/changes` 按现有格式继续追加 `step` 递增的 jsonl 即可,
+  引擎开销与变更量相关,与历史长度无关。
